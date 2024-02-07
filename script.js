@@ -286,7 +286,7 @@ function drawText() {
   if (frameNumber >= 3600 && frameNumber < 99999) {
     context.fillStyle = `rgba(255, 255, 255, ${thirdOpacity})`;
     context.fillText(
-      "Will you happily be my comfort place?",
+      "Let's promise together by clicking the link",
       canvas.width / 2,
       canvas.height / 2 + 120
     );
